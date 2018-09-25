@@ -12,7 +12,6 @@ Barra de status do servidor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Na parte inferior, esta barra somente é mostrada na aba Home. barra de status do servidor
-*****************************************************************************************
 
 	*  Quantidade de processadores
 	*  Modelo do processador
