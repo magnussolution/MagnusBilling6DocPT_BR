@@ -11,12 +11,11 @@ Instale o Linux **minimal**.
 
 ::
      
-  cd /usr/src
+  cd /usr/src/
   yum -y install wget
-  wget http://downloads.sourceforge.net/project/magnusbilling/install.sh
+  wget https://raw.githubusercontent.com/magnussolution/magnusbilling6/master/script/install.sh
   chmod +x install.sh
-  ./install.sh
-     
+  ./install.sh     
 |
 
 **2.** Durante a instalação será solicitado o idioma padrão para o Mangusbilling. Escolha digitando o numero do idioma escolhido.
