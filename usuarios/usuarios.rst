@@ -1,3 +1,7 @@
+*****************
+Criar um usuario
+*****************
+
 Agregar nuevas cuentas de usuarios a MBilling
 
 Nos dirigimos al Menú Usuarios >> Usuarios >> Nuevo. Encontramos los campos:
