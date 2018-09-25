@@ -2,8 +2,6 @@
 Backup
 ******
 
-|
-
 É sempre uma boa ideia ter um backup.
 
 Backup manual
@@ -29,4 +27,7 @@ Configurando o crontab -e
  crontab -e
 
 Procure a linha abaixo e altere para o horario desejado, ou comente a linha com ; para nao fazer backup automatico.
-0 2 * * * php /var/www/html/mbilling/cron.php Backup
+
+::
+
+ 0 2 * * * php /var/www/html/mbilling/cron.php Backup
