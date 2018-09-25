@@ -69,8 +69,8 @@ html_theme_options = {
 # VCS options: https://docs.readthedocs.io/en/latest/vcs.html#github
 html_context = {
     "display_github": True, # Integrate GitHub
-    "github_user": "godotengine", # Username
-    "github_repo": "godot-docs", # Repo name
+    "github_user": "magnussolution", # Username
+    "github_repo": "MagnusBilling6DocPT_BR", # Repo name
     "github_version": "master", # Version
     "conf_py_path": "/", # Path in the checkout to the docs root
 }
@@ -78,7 +78,7 @@ html_context = {
 html_logo = 'img/docs_logo.png'
 
 # Output file base name for HTML help builder
-htmlhelp_basename = 'GodotEnginedoc'
+htmlhelp_basename = 'MagnusBilling6DocPT_BR'
 
 # -- Options for reStructuredText parser ----------------------------------
 
@@ -91,8 +91,8 @@ file_insertion_enabled = False
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'GodotEngine.tex', 'Godot Engine Documentation',
-   'Juan Linietsky, Ariel Manzur and the Godot community', 'manual'),
+  (master_doc, 'MagnusBilling.tex', 'MagnusBilling Documentation',
+   'Adilson Magnus and the MagnusBilling community', 'manual'),
 ]
 
 # -- Options for linkcheck builder ----------------------------------------
