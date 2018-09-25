@@ -3,42 +3,45 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Godot Docs – *master* branch
+Bem vindo a documentação do MagnusBilling 6 em português.
 ============================
 
-.. attention:: This is the documentation for the unstable (master) branch.
-               Looking for the documentation of the current **stable** branch?
-               `Have a look here <http://docs.godotengine.org/en/stable>`_.
+.. attention:: Nos precisamos de ajuda para desenvolver a documentaçao. Entre em contato.
 
-Welcome to the official documentation of Godot Engine, the free and open source
-community-driven 2D and 3D game engine! If you are new to this documentation,
-we recommend that you read the :ref:`introduction page <doc_about_intro>` to
-get an overview of what this documentation has to offer.
+**MagnusBilling**
+-----------------
 
-The table of contents below and in the sidebar should let you easily access the
-documentation for your topic of interest. You can also use the search function
-in the top left corner.
+Um projeto OpenSource que prove um sistema completo, realmente potente, para qualquer pessoa possa iniciar um provedor de telefonia IP. Um sistema feito para `Asterisk`_ .
 
-.. note:: Godot Engine is an open source project developed by a community of
-          volunteers. The documentation team can always use your
-          feedback and help to improve the tutorials and class reference. If
-          you don't understand something, or cannot find what you
-          are looking for in the docs, help us make the documentation better
-          by letting us know!
+MagnusBillingDocs pode ser instalado em Linux Centos ou Debian.(otimizado para Centos 7). 
+MagnusBillingDocs tem uma interface moderna e robusta que torna muito fácil a administração de todas as funções.
+MagnusBilling tem tudo o que pequenas, media e grandes empresas precisam para colocar em funcionamento um robusto sistema de PBX IP `Clique aqui para ver o canal MagnusBilling no youtube`_ .
 
-          Submit an issue or pull request on the `GitHub repository
-          <https://github.com/godotengine/godot-docs/issues>`_,
-          help us `translate the documentation
-          <https://hosted.weblate.org/engage/godot-engine/>`_ into your
-          language, or discuss with us on either the ``#documentation``
-          channel on `Discord <https://discord.gg/zH7NUgz>`_, or the
-          ``#godotengine-doc`` channel on `irc.freenode.net
-          <http://webchat.freenode.net/?channels=#godotengine-doc>`_!
+Benéficos do MagnusBillingDocs
+------------------------------
 
-.. image:: https://hosted.weblate.org/widgets/godot-engine/-/godot-docs/287x66-white.png
-    :alt: Translation state
-    :align: center
-    :target: https://hosted.weblate.org/engage/godot-engine/?utm_source=widget
+1. Algumas funcionalidade extras para dar uma incrível robustez ao Asterisk.
+2. Torna o Asterisk mais fácil de administrar, e permite você ainda trabalhar com os arquivos nativos do Asterisk e acesso ao seu console (asterisk -r). 
+3. Também um entregar para seus cliente e revendedores um atrativo painel WEB.
+
+MagnusBilling funções
+---------------------
+
++-------------------------+-----------------------+---------------------------------+------------------------------------------+
+| SoftSwitch 4 & 4        | Envio de SMS          | Pacotes grátis de min           |      Paypal                              |
++-------------------------+-----------------------+---------------------------------+------------------------------------------+
+| Torpedo de voz          | CallShop              |    Pré e pós pago               |      Pagseguro                           |
++-------------------------+-----------------------+---------------------------------+------------------------------------------+
+| CallingCard             | CidCallBack           |    Venda de serviços            |      Moip                                |
++-------------------------+-----------------------+---------------------------------+------------------------------------------+
+| Gerenciamento de DID    | Ivr                   |    SIP e IAX                    |      GerenciaNet                         |
++-------------------------+-----------------------+---------------------------------+------------------------------------------+
+| CallBack                | Fila de espera        |    URA reversa                  |      e muito mais...                     |
++-------------------------+-----------------------+---------------------------------+------------------------------------------+
+
+.. _Asterisk: http://www.asterisk.org
+.. _Magnusbilling: https://www.magnusbilling.com
+.. _Clique aqui para ver o canal MagnusBilling no youtube: https://www.youtube.com/channel/UCish_6Lxfkh29n4CLVEd90Q
 
 The main documentation for the site is organized into the following sections:
 
@@ -47,7 +50,8 @@ The main documentation for the site is organized into the following sections:
    :caption: General
    :name: sec-general
 
-   about/index
+   primeiros_passos.rst
+   firewall.rst 
 
 
 .. toctree::
@@ -59,65 +63,6 @@ The main documentation for the site is organized into the following sections:
    getting_started/editor/index
    getting_started/scripting/index
    getting_started/workflow/index
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Tutorials
-   :name: sec-tutorials
-
-   tutorials/2d/index
-   tutorials/3d/index
-   tutorials/audio/index
-   tutorials/physics/index
-   tutorials/math/index
-   tutorials/animation/index
-   tutorials/inputs/index
-   tutorials/io/index
-   tutorials/i18n/index
-   tutorials/gui/index
-   tutorials/viewports/index
-   tutorials/shading/index
-   tutorials/networking/index
-   tutorials/assetlib/index
-   tutorials/vr/index
-   tutorials/plugins/index
-   tutorials/platform/index
-   tutorials/threads/index
-   tutorials/misc/index
-   tutorials/debug/index
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Development
-   :name: sec-devel
-
-   development/compiling/index
-   development/cpp/index
-   development/file_formats/index
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Creating Content
-   :name: sec-content
-
-   content/3d/index
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Community
-   :name: sec-community
-
-   community/index
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Class reference
-   :name: sec-class-ref
-
-   classes/index
 
 
 .. Indices and tables
