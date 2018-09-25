@@ -56,17 +56,6 @@ The main documentation for the site is organized into the following sections:
    primeiros_passos/security.rst
 
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Getting started
-   :name: sec-learn
-
-   getting_started/step_by_step/index
-   getting_started/editor/index
-   getting_started/scripting/index
-   getting_started/workflow/index
-
-
 .. Indices and tables
 .. ------------------
 ..
