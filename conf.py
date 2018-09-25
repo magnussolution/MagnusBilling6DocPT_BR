@@ -23,8 +23,8 @@ master_doc = 'index'
 
 # General information about the project
 project = 'Godot Engine'
-copyright = '2005-2018, MagnusSolution'
-author = 'Adilson Magnus and the MagnusBilling community'
+copyright = '2014-2018, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)'
+author = 'Juan Linietsky, Ariel Manzur and the Godot community'
 
 # Version info for the project, acts as replacement for |version| and |release|
 # The short X.Y version
