@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Godot Engine documentation build configuration file
+# MagnusBilling documentation build configuration file
 
 import sys
 import os
@@ -91,8 +91,8 @@ file_insertion_enabled = False
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'GodotEngine.tex', 'Godot Engine Documentation',
-   'Juan Linietsky, Ariel Manzur and the Godot community', 'manual'),
+  (master_doc, 'MagnusBilling.tex', 'MagnusBilling Documentation',
+   'Adilson Magnus and the MagnusBilling community', 'manual'),
 ]
 
 # -- Options for linkcheck builder ----------------------------------------
