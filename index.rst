@@ -61,13 +61,6 @@ The main documentation for the site is organized into the following sections:
 
    firewall/iptables.rst
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Usuarios
-   :name: sec-general
-
-   usuarios/usuarios.rst
-
 .. Indices and tables
 .. ------------------
 ..
