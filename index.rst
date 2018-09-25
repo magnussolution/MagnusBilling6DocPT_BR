@@ -53,11 +53,10 @@ The main documentation for the site is organized into the following sections:
    primeiros_passos/quick_install.rst
    primeiros_passos/interface.rst
    primeiros_passos/backup.rst
-   primeiros_passos/security.rst
 
 .. toctree::
    :maxdepth: 1
-   :caption: Firewall
+   :caption: Segurança
    :name: sec-general
 
    firewall/iptables.rst
