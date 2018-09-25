@@ -2,7 +2,7 @@
 Instalação
 *************
 
-.. image:: ../_static/images/logo.png
+.. image:: img/logo.png
         :scale: 85% 
 
 |
@@ -43,7 +43,7 @@ Instale o Linux **minimal**.
       Senha: magnus (Lembre-se de alterar a senha padrão)
 |
      
-.. image:: ../_static/images/ilogin.png
+.. image:: img/ilogin.png
         :scale: 80%
 |
 

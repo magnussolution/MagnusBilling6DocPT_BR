@@ -10,7 +10,7 @@ Menu superior, com opções de idioma, botões alterar senha, ajuda e sair do si
 
 
 Barra de status do servidor
-===========================
+---------------------------
 
 Na parte inferior, esta barra somente é mostrada na aba Home. barra de status do servidor
 *****************************************************************************************
@@ -26,12 +26,12 @@ Na parte inferior, esta barra somente é mostrada na aba Home. barra de status d
 	*  Tempo que o servidor esta Up
 	*  Botão para dar reload no Asterisk
 
-.. image:: ../_static/images/barra.png
+.. image:: img/barra.png
         :scale: 85%	   
 	   	   
 
 Barra de botões
-===============
+---------------
 
 O MagnusBilling é um sistema modular, cada menu ou sub-menu corresponde a um modulo. Todos os módulos são idênticos em sua estrutura.
 Cada modulo é composto por uma barra de ferramentas composto por estes botões:
@@ -62,12 +62,12 @@ Barra de botões dos módulos
 - Botão Limpar Filtros
 	Este botão limpa os filtros realizados.
 
-.. image:: ../_static/images/buttons.png
+.. image:: img/buttons.png
         :scale: 85%	
 
 
 Colunas
-=======
+-------
 
 Cada coluna do MagnusBilling tem varias opções muito útil para o bom uso do sistema.
 
@@ -86,12 +86,12 @@ Para encontrar estas opções coloque o mouse sobre a coluna desejada, e clique 
 - Filtro
 	Esta opção também é de fundamental entendimento, por tanto será escrito um tutorial exclusivo.
 
-.. image:: ../_static/images/colluns.png
+.. image:: img/colluns.png
         :scale: 85%
 
 
 Sistema de Filtro
-=================
+----------------
 
 O MagnusBilling conta com um poderoso sistema de filtro para encontrar os registros desejados em cada modulo.
 
@@ -104,27 +104,27 @@ Existe tipos de filtro dependendo do tipo dos dados da coluna:
 - Filtro por texto.
 
 	Este filtro encontra dados em colunas com texto que inicia com, termina com, contém ou que seja igual a. Por exemplo, buscar um cliente que tem o nome que Inicia com 'José', sera listado todos os clientes que tem nome que inicia com José.
-.. image:: ../_static/images/filter_text.png
+.. image:: img/filter_text.png
         :scale: 85%
 
 - Filtro por números inteiros.
 
 	Este filtro sera mostrado em colunas que contem valores numéricos, como a coluna crédito de um cliente.
-.. image:: ../_static/images/filter_int.png
+.. image:: img/filter_int.png
         :scale: 85%
 
 
 - Filtro por datas.
 
 	Este filtro sera mostrado em colunas que contem datas, este filtro é muito útil nos relatórios.
-.. image:: ../_static/images/filter_date.png
+.. image:: img/filter_date.png
         :scale: 85%
 
 
 - Filtro combo.
 
 	Este filtro é usando em casos de relacionamento entre módulos.	
-.. image:: ../_static/images/filter_combo.png
+.. image:: img/filter_combo.png
         :scale: 85%
 
  
