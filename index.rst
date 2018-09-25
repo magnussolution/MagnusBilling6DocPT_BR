@@ -47,11 +47,13 @@ The main documentation for the site is organized into the following sections:
 
 .. toctree::
    :maxdepth: 1
-   :caption: General
+   :caption: Primeiros passos
    :name: sec-general
 
-   primeiros_passos.rst
-   firewall.rst 
+   primeiros_passos/quick_install.rst
+   primeiros_passos/interface.rst
+   primeiros_passos/backup.rst
+   primeiros_passos/security.rst
 
 
 .. toctree::
