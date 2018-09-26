@@ -1,60 +1,63 @@
 *****************
-Criar um usuario
+Criar um usuário
 *****************
 
-Agregar nuevas cuentas de usuarios a MBilling
+Adicionar novas contas de usuários a `MagnusBilling`_ .
 
-Nos dirigimos al Menú Usuarios >> Usuarios >> Nuevo. Encontramos los campos:
+Nos dirigimos ao Menú Usuarios >> Usuarios >> Novo. Encontramos os campos:
 
-- Usuario: Ingresamos el nombre de usuario (Podemos seleccionar para que MBilling genere este dato de manera automática, desde el Menú Configuraciones >> Configuraciones >> Username auto generate, como así también podemos elegir que se coloque un prefijo y la cantidad de caracteres que lo compongan). Es recomendable colocar un nombre de usuario formado por números y no por letras.
+- Usuario: Ingresamos o nome de usuário (Podemos selecionar para que `MagnusBilling`_ . gere este dado de manera automática, desde o Menú Configuraçōes >> Configuraçōes >> Username auto generate, como assim también podemos escolher que se coloque um prefixo e a quantidade de caracteres). É recomendable colocar um nome de usuário formado por números e não  por letras.
 
-- Contraseña: La clave siempre se genera de manera automática, pero puede ser modificada posteriormente por el Administrador, o inclusive por el usuario, si este tiene los permisos correspondientes.
+- Senha: A senha sempre se genera de manera automática, mas pode ser modificada posteriormente pelo Administrador, o inclusive pelo o usuário, se o usuário tem as permissōes correspondentes.
 
-- Grupo: Este campo indica a que grupo va a pertenecer el usuario. Por defecto MBilling tiene 3 grupos: Administrador, Agente y Cliente; pero se pueden crear y generar nuevos. Cada uno con los permisos deseados. Es recomendable no modificar los grupos que trae MBilling por defecto. Es mejor crear nuevos grupos y dejar estos como respaldo en caso de tener problemas con los creados.
+- Grupo: Este campo indica a que grupo vai pertencer o usuário. Por padrão `MagnusBilling`_ . tem 3 grupos: Administrador, Agente e Cliente; mas se poden criar e generar novos. Cada uno com os permissōes deseados. É recomendable não  modificar os grupos que trae `MagnusBilling`_ . por padrão.
 
-- Grupo para clientes del Agente: En caso de que se seleccione el Grupo Agente, en este campo se podrá elegir a que grupo van a pertenecer los usuario creados por dicho agente.
+- Grupo para clientes do Agente: Em caso de que se selecione um Grupo de Agente, mem este campo se poderá escolher a que grupo vão pertencer os usuário creados por este agente.
 
-- Idioma: Se debe seleccionar el idioma del usuario.
+- Idioma: Se deve selecionar o idioma do usuário.
 
-- Plan: Este campo indica a que Plan va a pertenecer este usuario, por lo tanto cuales serán los valores que va a pagar por las llamadas, ya que cada plan, tiene una tarifa asignada.
+- Plano: Este campo indica a que planoo vai pertencer este usuário, por tanto qual será os valores que vai pagar pelas chamadas, ja que cada plano, tem suas tarifas.
 
-- DDD: En este campo podremos generar un plan de marcado específico para cada usuario. El formato es el siguiente:
+- DDD: Neste campo podemos gerar um plano de marcado específico para cada usuário. O formato é o seguinte:
 
-Ejemplo de plan de marcado: 15/54911/10,0342/54342/11
+Exemplo de plano de discagem: 0/55,*/5511/8,*/5511/9
 
-Las reglas deben estar separadas por coma (,) y están compuestas por tres términos separados por "/". El primer termino indica el número a reconocer y reemplazar, el segundo por cual debe ser reemplazado, el tercero cual es la longitud del número. 
+As regras devem estar separadas por virgula (,) e estão compostas por tres termino separados por "/". O primeiro termino indica o número a encontrar e ser alterado, o segundo por qual deve ser reemplazado, o terceiro é a longitude do número. 
 
-Ejemplo 1: 15/54911/10. Número que comienza con 15 y tenga una longitud de 10 dígitos, se debe cambiar el 15 por el 54911. Número 1561333612 >> comienza con 15 y tiene 10 dígitos = 5491161333612
+Exemplo 1: 15/54911/10. Número que inicia com 15 e tenha uma longitud de 10 dígitos, se deve trocar o 15 pelo 54911. Número 1561333612 >> inicia com 15 e tem 10 dígitos = 5491161333612
 
-Ejemplo 2: 0342/54342/11. Número que comienza con 0342 y tenga una longitud de 11 dígitos, reemplazar el 0342 por el 54342. Número 03424742900 >> Comienza con 0342 y tiene 11 dígitos = 543424742900
-
-
-- Activo: Activamos o desactivamos este usuario, si se encuentra desactivado, no va poder ingresar al sistema.
-
-- Paquetes gratis: Este campo indica si el usuario tiene activado algún paquete promocional.
+Exemplo 2: 0342/54342/11. Número que inicia com 0342 e tenha uma longitud de 11 dígitos, alterar o 0342 pelo 54342. Número 03424742900 >> inicia com 0342 e tem 11 dígitos = 543424742900
 
 
+- Ativo: Ativamos o desativamos este usuário, si se encontra desativado, não podera ingressar ao sistema.
 
-Pestaña datos personales: Se podrá agregar información detallada del usuario.
+- Pacotes gratis: Este campo indica si o usuário tem ativado algum pacte gratis.
 
 
 
-Pestaña Adicional
+Tab dados pessoais: Se poderá adicionar informação detalhada do usuário.
 
-- Tipo de pago: Prepago o postpago.
 
-- Límite de crédito: En caso de seleccionar postpago, se podrá seleccionar el límite de crédito con el cual el usuario podrá realizar llamadas.
 
-- Activar vencimiento: Para activar el vencimiento del crédito.
+Tab Adicional
 
-- Vence: Indicar la fecha de caducidad. 
+- Tipo de pagamento: Pré-pago o Pós-pago.
 
-- Aviso de saldo bajo: Envía alertas por correo al usuario.
+- Limite de crédito: Caso de selecionar Pós-pago, se poderá selecionar o límite de crédito com o qual o usuário poderá realizar chamadas.
 
-- Callshop: Activar el módulo callshop para este usuario.
+- Ativar vencimiento: Para ativar o vencimiento do crédito. Ao chegar no limite, o usuário sera desativado.
 
-- Grabar llamadas: Grabar las llamadas de este usuario.
+- Vence: Indicar a fecha de caducidad. 
 
-- PIN Callingcard: PIN para que el usuario pueda acceder al callingcard (se genera de manera aleatoria, pero se puede modificar).
+- Aviso saldo baixo: Envía alertas por email ao usuário quando saldo for menor que o valor adicionado.
 
-- Restricción: Que tipo de restricción de llamada tendrá el usuario. (Leer documentación: Usuarios >> Números restringidos).
+- Callshop: Ativar o módulo callshop para este usuário.
+
+- Gravar chamadas: Gravar as chamadas de este usuário.
+
+- PIN Callingcard: PIN para que o usuário pode entrar ao callingcard (se genera de manera aleatoria, mas se pode modificar).
+
+- Restriçōes: Que tipo de restriçōes de chamada tera o usuário. (Ler documentação: Usuarios >> Números restringidos).
+  
+
+.. _MagnusBilling: https://www.magnusbilling.com

@@ -15,7 +15,7 @@ Um projeto OpenSource que prove um sistema completo, realmente potente, para qua
 
 MagnusBillingDocs pode ser instalado em Linux Centos ou Debian.(otimizado para Centos 7). 
 MagnusBillingDocs tem uma interface moderna e robusta que torna muito fácil a administração de todas as funções.
-MagnusBilling tem tudo o que pequenas, media e grandes empresas precisam para colocar em funcionamento um robusto sistema de PBX IP `Clique aqui para ver o canal MagnusBilling no youtube`_ .
+MagnusBilling tem tudo o que pequenas, media e grandes empresas precisam para colocar em funcionamento um robusto sistema de PBX IP `Canal youtube`_ .
 
 Benéficos do MagnusBillingDocs
 ------------------------------
@@ -41,7 +41,8 @@ MagnusBilling funções
 
 .. _Asterisk: http://www.asterisk.org
 .. _Magnusbilling: https://www.magnusbilling.com
-.. _Clique aqui para ver o canal MagnusBilling no youtube: https://www.youtube.com/channel/UCish_6Lxfkh29n4CLVEd90Q
+.. _Canal youtube: https://www.youtube.com/channel/UCish_6Lxfkh29n4CLVEd90Q
+.. _MagnusBilling: https://www.magnusbilling.com
 
 The main documentation for the site is organized into the following sections:
 
