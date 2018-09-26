@@ -50,9 +50,9 @@ The main documentation for the site is organized into the following sections:
    :caption: Primeiros passos
    :name: sec-general
 
-   primeiros_passos/quick_install.rst
-   primeiros_passos/interface.rst
-   primeiros_passos/backup.rst
+   get_started/quick_install.rst
+   get_started/interface.rst
+   get_started/backup.rst
 
 .. toctree::
    :maxdepth: 1
@@ -66,7 +66,7 @@ The main documentation for the site is organized into the following sections:
    :caption: Usuarios
    :name: sec-general
 
-   usuarios/usuarios.rst
+   users/users.rst
 
 .. Indices and tables
 .. ------------------
