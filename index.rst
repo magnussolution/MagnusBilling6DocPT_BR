@@ -69,6 +69,8 @@ The main documentation for the site is organized into the following sections:
 
    users/users.rst
 
+   campaign/startingdate.rst
+
 .. Indices and tables
 .. ------------------
 ..
